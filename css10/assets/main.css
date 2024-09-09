@@ -1,0 +1,55 @@
+.container {
+  width: 1110px;
+  margin: auto;
+}
+
+p {
+  margin: 0 !important;
+  padding: 0;
+}
+
+.firstpage {
+  background-color: pink;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icons {
+  display: flex;
+  gap: 32px;
+}
+
+.logos {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.slider {
+  display: flex;
+  justify-content: space-between;
+}
+
+.featured {
+  padding-bottom: 16px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  margin-bottom: 24px;
+  margin-top: 24px;
+}
+
+.hover-deneme {
+  margin-top: 30px;
+  display: flex;
+
+  & p:hover {
+    color: blue;
+  }
+
+  & p:focus {
+    color: pink;
+  }
+}
